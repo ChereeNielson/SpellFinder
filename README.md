@@ -42,8 +42,8 @@ To use our web service, simply go to our homepage and take our state-of-the-art 
 
 ```js
 {
-	name: "Patronus Charm (Expecto Patronum)",
+    name: "Patronus Charm (Expecto Patronum)",
     photo: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/19/17/enhanced/webdr02/original-grid-image-23059-1447970713-6.jpg?downsize=700:*&output-format=auto&output-quality=auto",
-	scores: [5, 1, 2, 3, 1, 2, 5, 1, 1, 1]
+    scores: [5, 1, 2, 3, 1, 2, 5, 1, 1, 1]
 }
 ```
