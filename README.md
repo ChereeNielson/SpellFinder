@@ -4,7 +4,7 @@
 
 ## "It does not do to dwell on dreams and forget to live"
 
-In need of a spell? Time to get on our app, and find that perfect spell. After filling out a quick survey, our spell-matching algorithm will pair you with the perfect wizardry spell.
+In need of a magical spell? Time to get on our app, and find that perfect spell. After filling out a quick survey, our spell-matching algorithm will pair you with the perfect wizardry spell.
 
 ## Live Link
  - https://morning-wave-74438.herokuapp.com/
