@@ -191,7 +191,7 @@
         <footer class="footer">
             <div class="container">
                 <p>
-                    <a href="/api/friends">API Spells List</a> |
+                    <a href="/api/spells">API Spells List</a> |
                     <a href="https://github.com/ChereeNielson/SpellFinder" target="_blank">GitHub Repo</a>
                 </p>
             </div>
@@ -226,7 +226,7 @@
 
     <script type="text/javascript">
         // Chosen CSS
-        var config = {
+        let config = {
             ".chosen-select": {},
             ".chosen-select-deselect": {
                 allow_single_deselect: true
@@ -249,7 +249,7 @@
             event.preventDefault();
             // Form validation
             function validateForm() {
-                var isValid = true;
+                let isValid = true;
                 $(".form-control").each(function () {
                     if ($(this).val() === "") {
                         isValid = false;
@@ -265,7 +265,7 @@
             // If all required fields are filled
             if (validateForm()) {
                 // Create an object for the user"s data
-                var userData = {
+                let userData = {
                     name: $("#name").val(),
                     photo: $("#photo").val(),
                     scores: [
