@@ -5,11 +5,11 @@ let spells = require("../data/spells.js");
 
 // Routing the apiRoutes with the app.get and app.post functions //
 module.exports = function (app) {
-    // The app.get request handles when user 'visits' a page //
+    // The app.get (GET route) request handles when user 'visits' a page. This will be used to display a JSON of all possible spells. //
     app.get("/api/spells", function (req, res) {
         res.json(spells);
     });
-    // The app.post request handles when a user submits a form and thus submits data to the server //
+    // The app.post (POST route) request handles when a user submits a form and thus submits data to the server. This will be used to handle incoming survey results as well as handle the compatibility logic. //
     app.post("/api/spells", function (req, res) {
         // Loop through all of the possible options //
         let bestMatch = {
