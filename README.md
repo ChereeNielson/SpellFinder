@@ -1,4 +1,4 @@
-# SpellFinder
+# Spell Finder
 
 ![hw-13-logo](https://i.gifer.com/5GpA.gif)
 
