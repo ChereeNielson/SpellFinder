@@ -36,7 +36,7 @@ module.exports = function (app) {
             // Loop through that spells score and the users score and calculate the absolute difference between the two and push that to the total difference variable set above //
             for (var j = 0; j < 10; j++) {
                 // We calculate the difference between the scores and sum them into the totalDifference //
-                totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(spellss[i].scores[j]));
+                totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(spells[i].scores[j]));
                 // If the sum of differences is less then the differences of the current "best match" //
                 if (totalDifference <= bestMatch.spellDifference) {
 
