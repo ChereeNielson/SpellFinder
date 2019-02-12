@@ -46,6 +46,13 @@ let spells = [
 			"5",
 			"4"
         ]
+    },
+    {
+        name: "",
+        photo: "https://i.imgur.com/XM48KAL.jpg";
+        scores: [
+            
+        ]
     }
     
 ];
